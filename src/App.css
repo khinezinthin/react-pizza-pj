@@ -1,0 +1,63 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+
+/* Navbar  */
+.nav-link{
+  color: wheat !important; 
+  font-size: larger;
+  text-align: center;
+  margin-left: 30px;
+}
+.nav-link:hover{
+  border-bottom: 3px dotted wheat !important;
+}
+.active{
+  border-bottom: 3px dotted wheat !important;
+}
+
+/* Menu  */
+.menu-head{
+  background-color: rgb(170, 55, 55);
+  padding: 20px;
+  text-shadow: 2px 2px 4px green;
+}
+.menu{
+  background-color: azure;
+}
+.menu-card{
+  box-shadow: green 0px 6px 12px -2px, greenyellow 0px 3px 7px -3px;
+  width: 18rem;
+  transition: 1000ms;
+}
+.menu-card:hover{
+  transform: rotate(20deg);
+}
+.menu-title{
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu-ingredient{
+  color: rgb(71, 172, 71);
+}
+
+.view-btn{
+  color: white;
+  padding: 7px;
+  border: 2px solid green;
+  border-top-right-radius: 30px; 
+  background-color: green;
+}
+
+/* Footer  */
+.footer{
+  background-color: rgb(75, 74, 74);
+  text-align: center;
+  padding: 10px;
+  color: wheat;
+}
+.footer-icon{
+  font-size: 30px;
+}
